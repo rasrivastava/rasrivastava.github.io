@@ -1,0 +1,44 @@
+baseURL: "https://rasrivastava.github.io/"
+languageCode: en-us
+title: Rahul Srivastava
+theme: PaperMod
+
+
+params:
+    homeInfoParams:
+        Title: Rahul Srivastava
+        Content: Hi there, this is Rahul Srivastava working as Software Engineer at Red Hat
+    socialIcons:
+      - name: linkedin
+        url: "https://www.linkedin.com/in/rahulopensource/"
+      - name: twitter
+        url: "https://twitter.com/rahulopensource"
+      - name: instagram
+        url: "https://www.instagram.com/rahul_srivastava__/"
+
+    cover:
+        linkFullImages: true
+
+    ShowBreadCrumbs: true
+
+    ShowReadingTime: true
+
+    ShowShareButtons: true
+
+    ShowPostNavLinks: true
+
+
+menu:
+    main:
+    - identifier: categories
+      name: Categories
+      url: /categories
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives
+      weight: 30
